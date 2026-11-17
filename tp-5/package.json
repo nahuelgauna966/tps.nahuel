@@ -1,0 +1,20 @@
+{
+  "name": "tp5-biblioteca-mvc",
+  "version": "1.0.0",
+  "private": true,
+  "description": "API de biblioteca con arquitectura MVC, Express y SQLite",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "seed": "node src/seed.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.2.0",
+    "express": "^5.1.0"
+  }
+}

@@ -1,0 +1,4 @@
+node_modules/
+storage/*.sqlite
+storage/*.sqlite-*
+coverage/
